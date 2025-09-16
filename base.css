@@ -50,8 +50,8 @@ a {
   font-weight: 600;
   font-size: 18px;
   font-family: sans-serif;
-  box-shadow: 1px 1px 14px 0 var(--main-btn-color);
-  background: var(--main-btn-color);
+  box-shadow: 1px 1px 14px 0 var("--main-btn-color");
+  background: red;
   color: var(--body-bg-1);
   transition: 0.4s;
   cursor: pointer;
@@ -62,10 +62,10 @@ button:hover {
 }
 
 .svg {
- width: 45px;
- height: 45px;
+  width: 45px;
+  height: 45px;
 }
 
 .dis {
- filter: invert(var(--svg-invert));
+  filter: invert(var(--svg-invert));
 }
