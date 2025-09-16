@@ -1,0 +1,19 @@
+.DarkTheme {
+ --body-bg-1: #000000;
+ --body-bg-2: #1e1e1e;
+ --main-bg: #000000c5;
+ --main-txt-color: #ffffff;
+ --main-btn-color: #ffffff;
+
+ --svg-invert: 100%;
+}
+
+.LightTheme {
+ --body-bg-1: #ffffff;
+ --body-bg-2: #888888;
+ --main-bg: #ffffffc5;
+ --main-txt-color: #000000;
+ --main-btn-color: #000000;
+
+ --svg-invert: 0%;
+}

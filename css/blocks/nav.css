@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--main-bg);
+  color: var(--main-txt-color);
+  height: 10vh;
+  border-radius: 0 0 4px 4px;
+}
+
+.nav-top {
+ display: flex;
+ align-items: center;
+ gap: 15px;
+}
+
+.nav-btns {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 20px;
+}
+
+.navigation {
+ display: none;
+}

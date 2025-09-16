@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--main-bg);
+  height: 10vh;
+  border-radius: 4px 4px 0 0;
+}
+
+.footer-btns {
+ display: flex;
+ justify-content: space-evenly;
+ width: 80%;
+ margin: 0 20px;
+}
+
+.footer-btn {
+display: flex;
+align-items: center;
+gap: 15px;
+}
