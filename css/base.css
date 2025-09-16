@@ -37,7 +37,7 @@ a {
   font-size: 18px;
   font-family: sans-serif;
   letter-spacing: 0.05em;
-  box-shadow: 4px 4px 14px 0;
+  box-shadow: 1px 1px 14px 0 var(--main-btn-color);
   background-color: var(--main-btn-color);
   color: var(--body-bg-1);
   transition: 0.4s;
@@ -50,7 +50,7 @@ a {
   font-weight: 600;
   font-size: 18px;
   font-family: sans-serif;
-  box-shadow: 4px 4px 14px 0;
+  box-shadow: 1px 1px 14px 0 var(--main-btn-color);
   background-color: var(--main-btn-color);
   color: var(--body-bg-1);
   transition: 0.4s;
